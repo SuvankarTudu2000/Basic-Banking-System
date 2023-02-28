@@ -39,13 +39,13 @@ CREATE TABLE `clients` (
 --
 
 INSERT INTO `clients` (`c_id`, `c_name`, `c_mail`, `c_balance`) VALUES
-(101, 'Subhash R.', 'shubh@gmail.com', 79400),
-(102, 'Akash B.', 'akash@gmail.com', 75400),
-(103, 'Sagar C.', 'sagar@gmail.com', 55000),
-(104, 'Ankit R.', 'ankit@gmail.com', 45200),
-(105, 'Pranali M.', 'pranali@gmail.com', 85000),
-(106, 'Swati M.', 'swati@gmail.com', 60000),
-(107, 'Ashwini C.', 'ashwini@gmail.com', 42000),
+(101, 'Suvankar Tudu', 'suvankar@gmail.com', 79400),
+(102, 'Rohan Roy', 'rohan@gmail.com', 75400),
+(103, 'Sagar Shaw', 'sagar@gmail.com', 55000),
+(104, 'Ankit Aggarwal', 'ankit@gmail.com', 45200),
+(105, 'Ranjan Kr. Das', 'ranjan123@gmail.com', 85000),
+(106, 'Sabujdeep Tudu', 'sabuj@gmail.com', 60000),
+(107, 'Shivam Jaiswal', 'shivamjaiswal34@gmail.com', 42000),
 (108, 'Prajwal K.', 'prajwal@gmail.com', 4510),
 (109, 'Kriti G.', 'krtis1@gmail.com', 3500),
 (110, 'Aliya S.', 'aliya2002@gmail.com', 25000);
@@ -69,7 +69,7 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`sr_no`, `sender`, `receiver`, `balance`, `date_time`) VALUES
-(3, 'Subhash R.', 'Akash B.', 200, '2021-11-01 16:47:47');
+(3, 'Suvankar Tudu', 'Rohan Roy', 200, '2021-11-01 16:47:47');
 
 --
 -- Indexes for dumped tables
